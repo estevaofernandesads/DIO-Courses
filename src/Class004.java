@@ -11,6 +11,10 @@ public class Class004 {
         var value2 = sc.nextInt();
         System.out.printf("%s + %s = %s%n", value1, value2, value1 + value2);
 
+        /*
+             operadores, + , - , / , * , % . 
+        */
+
         sc.close();
     }
 }
