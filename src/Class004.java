@@ -12,8 +12,15 @@ public class Class004 {
         System.out.printf("%s + %s = %s%n", value1, value2, value1 + value2);
 
         /*
-             operadores, + , - , / , * , % . 
+             operadores, + , - , / , * , % .
+             += , -= , /= , *= .
+             ++ , -- .
+
+             valores de incremento a esquerda, executa na hora, a direita, só na proxima linha
         */
+
+        System.out.printf("A raiz quadrada de %d é %.2f %n", value1, Math.sqrt(value1));
+        System.out.printf("A potência de %d é %.2f %n", value2, Math.pow(value2, 2));
 
         sc.close();
     }
